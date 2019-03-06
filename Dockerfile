@@ -1,6 +1,8 @@
 FROM openjdk:8
 
 RUN mkdir /files
+
+RUN wget https://www.dropbox.com/s/9yijelmovy8jcy5/agent.jar?dl=1 -O /files/agent.jar
 WORKDIR /files
-CMD bash start.sh
+CMD java -jar agent.jar
 
