@@ -2,4 +2,4 @@ Had to run this to get IPv4 link local address too:
 avahi-autoipd enp0s31f6
 
 Run with:
-sudo docker run --tty --network host jamesportman/bootmod3
+sudo docker run --rm --tty --network host jamesportman/bootmod3
