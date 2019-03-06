@@ -2,3 +2,6 @@ This expects the relevant jar files to be inside files/
 
 Had to run this to get IPv4 link local address too:
 avahi-autoipd enp0s31f6
+
+Direct link to jar:
+https://www.dropbox.com/s/9yijelmovy8jcy5/agent.jar?dl=1
