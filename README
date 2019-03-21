@@ -3,3 +3,14 @@ avahi-autoipd enp0s31f6
 
 Run with:
 sudo docker run --rm --tty --network host jamesportman/bootmod3
+
+New images:
+
+sudo docker login
+
+sudo docker tag aaaaaa000000 jamesportman/bootmod3:(n)
+sudo docker push jamesportman/bootmod3:(n)
+
+sudo docker tag aaaaaa000000 jamesportman/bootmod3:latest
+sudo docker push jamesportman/bootmod3:latest
+
