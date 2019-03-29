@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo docker build --tag "bootmod3-agent" .
+sudo docker build --no-cache --tag "bootmod3-agent" .
