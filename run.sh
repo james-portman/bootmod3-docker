@@ -1,5 +1,1 @@
-#!/bin/bash
-set -e
-
-sudo docker pull jamesportman/bootmod3
-sudo docker run --rm --interactive --tty --network host jamesportman/bootmod3
+docker-compose run --user="$(id -u)" bootmod3 java -jar agent.jar

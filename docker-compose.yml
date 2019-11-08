@@ -1,0 +1,11 @@
+---
+version: '3.0'
+services:
+  bootmod3:
+    image: openjdk:8
+    # env_file: .env
+    working_dir: /files
+    volumes:
+      - .:/files:rw
+    network_mode: host
+    user: root
