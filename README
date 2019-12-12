@@ -1,3 +1,3 @@
-Had to run this to get IPv4 link local address too:
-avahi-autoipd enp0s31f6
+Set up link-local IPv4 for your nic somehow,
+in Linux you could use NetworkManager to do it, or use avahi-autoipd
 
